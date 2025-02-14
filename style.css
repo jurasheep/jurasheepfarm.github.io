@@ -1,13 +1,22 @@
-body {
-  font-family: Segoe UI;
+/* css file for the jurasheep html */
+/* design is very human */
+
+body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  background: url(https://jurasheep.github.io/jurasheepfarm/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  color: rgb(255, 255, 255);
 }
-  
+
 header {
-  background-color: #ededed;
   padding: 20px;
   text-align: center;
+  backdrop-filter: blur(8px);
 }
   
   nav ul {
@@ -40,10 +49,10 @@ footer {
 }
 
 a {
-  color: rgb(0, 41, 123);
+  color: rgb(112, 156, 244);
   text-transform: lowercase;
   text-decoration: none;
-  font-family: monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: large;
 }
 
